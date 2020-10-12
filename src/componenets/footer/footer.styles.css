@@ -1,0 +1,39 @@
+footer {
+    height: 400px;
+    color: white;
+    background:#242845;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+footer ul {
+    list-style: none;
+    font-size: 24px;
+}
+
+.footer-info ul li:first-child {
+    color: rgb(248, 178, 79);
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+
+.footer-info ul li span {
+    color: #ED6565;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.copyright {
+    text-align: center;
+}
