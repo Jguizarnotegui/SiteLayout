@@ -24,12 +24,21 @@
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 95px;
+    font-size: 5vw;
     text-align: center;
     line-height: 100%;
 }
 
 .hero h2 {
     font-weight: 500;
+    font-size: 1.8vw;
     text-transform: uppercase;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    .hero h2 {
+        font-size: 2vw;
+    }
 }
