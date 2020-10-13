@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SiteLayout/static/css/main.47e99282.chunk.css",
+    "main.css": "/SiteLayout/static/css/main.67962984.chunk.css",
     "main.js": "/SiteLayout/static/js/main.025e90fd.chunk.js",
     "main.js.map": "/SiteLayout/static/js/main.025e90fd.chunk.js.map",
     "runtime-main.js": "/SiteLayout/static/js/runtime-main.85929939.js",
@@ -8,9 +8,9 @@
     "static/js/2.0a12556c.chunk.js": "/SiteLayout/static/js/2.0a12556c.chunk.js",
     "static/js/2.0a12556c.chunk.js.map": "/SiteLayout/static/js/2.0a12556c.chunk.js.map",
     "index.html": "/SiteLayout/index.html",
-    "precache-manifest.c4b9a70c44d6f405976ea4f531025cc9.js": "/SiteLayout/precache-manifest.c4b9a70c44d6f405976ea4f531025cc9.js",
+    "precache-manifest.1b9ede47752ce68613a4aa8d95b245c6.js": "/SiteLayout/precache-manifest.1b9ede47752ce68613a4aa8d95b245c6.js",
     "service-worker.js": "/SiteLayout/service-worker.js",
-    "static/css/main.47e99282.chunk.css.map": "/SiteLayout/static/css/main.47e99282.chunk.css.map",
+    "static/css/main.67962984.chunk.css.map": "/SiteLayout/static/css/main.67962984.chunk.css.map",
     "static/js/2.0a12556c.chunk.js.LICENSE.txt": "/SiteLayout/static/js/2.0a12556c.chunk.js.LICENSE.txt",
     "static/media/hero.styles.css": "/SiteLayout/static/media/background.193b9347.jpg",
     "static/media/lawyer.jpg": "/SiteLayout/static/media/lawyer.7dff71ab.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.85929939.js",
     "static/js/2.0a12556c.chunk.js",
-    "static/css/main.47e99282.chunk.css",
+    "static/css/main.67962984.chunk.css",
     "static/js/main.025e90fd.chunk.js"
   ]
 }
