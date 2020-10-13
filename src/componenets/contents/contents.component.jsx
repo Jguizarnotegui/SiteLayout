@@ -1,6 +1,8 @@
 import React from 'react';
 import Hero from '../hero/hero.component';
 import Layout from '../layout/layout.component';
+import Form from '../form/form.component';
+import lawyer from '../images/lawyer.jpg';
 
 import './contents.styles.css';
 
@@ -20,16 +22,25 @@ const Content = ()  => {
                             <button>Contact Us</button>
                         </div>
                         <div className='image-container'>
-                            <img src='../images/lady-liberty.jpg' alt='' />
+                            <img src={lawyer} alt='' />
                         </div>
                     </div>
                 </div>
                 <div className='page practice-areas'>
                     <h2>Practice Areas</h2>
                     <div className='cards'>
-                        <div className='card'></div>
-                        <div className='card'></div>
-                        <div className='card'></div>
+                        <div className='card card1'>
+                            <h2>DUI</h2>
+                        </div>
+                        <div className='card card2'>
+                            <h2>Criminal Defense</h2>
+                            <p>
+                            Excepteur aliquip ipsum nostrud cillum reprehenderit consequat nisi occaecat dolor esse commodo. Velit eu sunt voluptate officia sunt aliquip eu. Proident aute velit cillum culpa exercitation sint consequat.
+                            </p>
+                        </div>
+                        <div className='card card3'>
+                            <h2>Civil <br />Litigation</h2>
+                        </div>
                     </div>
                     <button>Contact Us</button>
                 </div>
@@ -49,6 +60,13 @@ const Content = ()  => {
                             <p>Contrary to popular  belief, Lorem Ipsem is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                         </div>
                     </div>
+                    <button>Contact Us</button>
+                </div>
+                <div className='contact'>
+                    <div className='info'>
+                        <h1>Los Angeles trial Lawyer</h1>
+                    </div>
+                    <Form />
                 </div>
             </div>
         </Layout>

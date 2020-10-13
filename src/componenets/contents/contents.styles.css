@@ -15,8 +15,22 @@
     
 }
 
-h2 {
+.about h2 {
     text-align: center;
+    color: #F8B24F;
+    font-size: 42px;
+}
+
+.about h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px; 
+}
+
+.about p {
+    font-size: 28px;
+    color: #AFB0B3;
+    margin-right: 35px;
 }
 
 .about-content {
@@ -31,13 +45,27 @@ h2 {
     width: 60%;
 }
 
+.text-content p {
+    font-size: 18px;
+}
+
+.text-content button {
+    background: #242845;
+    color: #F8B24F;
+    font-size: 26px;
+    padding: 15px 40px;
+    border: 1px solid #F8B24F;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 .image-container {
 }
 
 .image-container img {
     width: 400px;
-    height: 500px;
-    border: 1px solid black;
+    box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
 }
 
 /* Practice Areas */
@@ -53,6 +81,47 @@ h2 {
     border: 1px solid gold;
     border-radius: 30px;
     margin: 20px;
+    padding: 5px;
+}
+
+.card h2 {
+    font-size: 42px;
+}
+
+.card1 {
+    display: grid;
+    place-items: center;
+}
+
+.card2 {
+    background: white;
+    color: #242845;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card2 p {
+    font-size: 21px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.card3 {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.practice-areas button {
+    background: #242845;
+    color: #F8B24F;
+    font-size: 26px;
+    padding: 15px 40px;
+    border: 1px solid #F8B24F;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* Legal Issues */
@@ -68,7 +137,6 @@ h2 {
 }
 
 .talk {
-    background: grey;
     grid-column: 6 / span 5;
 }
 
@@ -78,11 +146,33 @@ h3 {
 }
 
 .breath {
-    background: grey;
     grid-column: 2 / span 5;
 }
 
 .patience {
-    background: gray;
     grid-column: 6 / span 5;
+}
+
+.legal-issues button {
+    background: #242845;
+    color: #F8B24F;
+    font-size: 26px;
+    padding: 15px 40px;
+    border: 1px solid #F8B24F;
+    border-radius: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Form */
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    width: 50%;
+    height: 100vh;
+    background: #242845;
+    color: white;
 }
