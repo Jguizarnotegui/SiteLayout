@@ -1,0 +1,11 @@
+.form {
+    width: 50%;
+    height: 100vh;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        font-size: 30px;
+    }
+}

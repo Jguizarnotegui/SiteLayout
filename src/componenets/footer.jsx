@@ -1,10 +1,10 @@
 import React from 'react';
-import './footer.styles.css';
+import '../style/components/_footer.scss';
 
 const Footer = () => {
     return (
         <footer>
-            <div className="footer-info">
+            <div className="info">
                 <ul>
                     <li>Company</li>
                     <li>About us</li>

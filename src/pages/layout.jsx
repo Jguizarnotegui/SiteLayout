@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '../header/header.component';
-import Footer from '../footer/footer.component';
+import Header from '../componenets/header';
+import Footer from '../componenets/footer';
 
-import './layout.styles.css';
+import '../componenets/layout.styles.css';
 
 const Layout = (props) => {
     return (
